@@ -1,8 +1,8 @@
 import pandas as pd
 import numpy as np
 
-input_file = './hyperlinks_without_redirects/hyperlink_data.csv'
-output_file = './hyperlinks_without_redirects/hyperlink_features_with_pct.csv'
+input_file = './Datasets/hyperlink_data.csv'
+output_file = './Datasets/hyperlink_features_with_pct.csv'
 
 try:
     df = pd.read_csv(input_file)

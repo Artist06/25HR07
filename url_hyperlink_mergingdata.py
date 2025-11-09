@@ -1,8 +1,8 @@
 import pandas as pd
 
-FILE_A = './input_data/url_features_extracted.csv'
-FILE_B = './hyperlinks_without_redirects/hyperlink_features_with_pct.csv'
-OUTPUT_FILE = './input_data/final_master_features.csv'
+FILE_A = './Datasets/url_features_extracted.csv'
+FILE_B = './Datasets/hyperlink_features_with_pct.csv'
+OUTPUT_FILE = './Datasets/final_master_features.csv'
 
 try:
     df_url_features = pd.read_csv(FILE_A)

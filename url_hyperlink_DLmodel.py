@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
 from sklearn.preprocessing import StandardScaler
 
-CSV_FILE = './input_data/final_master_features.csv'
+CSV_FILE = './Datasets/final_master_features.csv'
 MODEL_OUTPUT_FILE = './model/hybrid_model.pth'
 MAX_LEN = 200 
 EMBEDDING_DIM = 32

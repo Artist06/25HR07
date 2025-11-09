@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
 import pickle
-INPUT_FILE = './hyperlinks_without_redirects/hyperlink_features_with_pct.csv'
+INPUT_FILE = './Datasets/hyperlink_features_with_pct.csv'
 MODEL_OUTPUT_FILE = './model/rf_hyperlink_model.pkl'
 PREDICTIONS_OUTPUT_FILE = './model/rf_hyperlink_predictions.csv'
 

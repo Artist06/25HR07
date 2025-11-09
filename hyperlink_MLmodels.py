@@ -11,7 +11,7 @@ from sklearn.neural_network import MLPClassifier
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.linear_model import LogisticRegression
 
-input_file = './hyperlinks_without_redirects/hyperlink_data.csv'
+input_file = './Datasets/hyperlink_data.csv'
 output_file = './model/hyperlink_model_comparison_withoutpct.csv'
 
 try:

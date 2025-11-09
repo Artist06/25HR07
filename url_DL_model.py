@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
 from sklearn.preprocessing import StandardScaler
 
-CSV_FILE = './input_data/url_features_extracted.csv'
+CSV_FILE = './Datasets/url_features_extracted.csv'
 MAX_LEN = 200 
 N_HEURISTIC_FEATURES = 21
 EMBEDDING_DIM = 32

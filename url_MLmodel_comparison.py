@@ -10,7 +10,7 @@ from sklearn.svm import SVC
 from sklearn.neural_network import MLPClassifier
 from xgboost import XGBClassifier
 
-csv_file = './input_data/url_features_extracted.csv'
+csv_file = './Datasets/url_features_extracted.csv'
 
 try:
     data = pd.read_csv(csv_file)

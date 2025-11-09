@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
 from sklearn.preprocessing import StandardScaler
 
-INPUT_FILE = './hyperlinks_without_redirects/hyperlink_features_with_pct.csv'
+INPUT_FILE = './Datasets/hyperlink_features_with_pct.csv'
 N_EPOCHS = 20 
 BATCH_SIZE = 64
 LEARNING_RATE = 0.001
